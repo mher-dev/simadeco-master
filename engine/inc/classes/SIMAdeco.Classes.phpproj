@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>SIMAdeco.Classes</Name>
+    <ProjectGuid>189bdf5b-82ac-488a-9379-b8ca33ea532b</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SIMAdeco.Classes</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>SIMAdeco.Classes</AssemblyName>
+    <SccProjectName>Svn</SccProjectName>
+    <SccProvider>SubversionScc</SccProvider>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\extensions\" />
+    <Folder Include="Core\TemplateFactory\" />
+    <Folder Include="Model\" />
+    <Folder Include="Model\Core\" />
+    <Folder Include="repository\" />
+    <Folder Include="service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\AdminModule.class.php" />
+    <Compile Include="ClassLoader.class.php" />
+    <Compile Include="Controller\Compilable.class.php" />
+    <Compile Include="Controller\Template.class.php" />
+    <Compile Include="CoreLoader.class.php" />
+    <Compile Include="Core\AccessEnum.class.php" />
+    <Compile Include="Core\AccessRights.class.php" />
+    <Compile Include="Core\Browser.class.php" />
+    <Compile Include="Core\ClassManager.class.php" />
+    <Compile Include="Core\DBManager.class.php" />
+    <Compile Include="Core\DefinedEnum.class.php" />
+    <Compile Include="Core\Enum.class.php" />
+    <Compile Include="Core\Error.class.php" />
+    <Compile Include="Core\extensions\ClassManager.Ext1.php" />
+    <Compile Include="Core\GlobalManager.class.php" />
+    <Compile Include="Core\Master.class.php" />
+    <Compile Include="Core\ResultSet.class.php" />
+    <Compile Include="Core\SessionManager.class.php" />
+    <Compile Include="Core\SIMAException.class.php" />
+    <Compile Include="Core\TemplateFactory.class.php" />
+    <Compile Include="Core\TemplateFactory\ComplexTag.class.php" />
+    <Compile Include="Core\TemplateFactory\SimpleTag.class.php" />
+    <Compile Include="ErrorLevel.class.php" />
+    <Compile Include="FileManager.class.php" />
+    <Compile Include="Group.class.php" />
+    <Compile Include="Model\Core\ModelBinder.class.php" />
+    <Compile Include="Model\ModelArticles.class.php" />
+    <Compile Include="Core\Module.class.php" />
+    <Compile Include="ModuleAdapter.class.php" />
+    <Compile Include="ModuleArgument.class.php" />
+    <Compile Include="ReferenceTemplate.class.php" />
+    <Compile Include="Right.class.php" />
+    <Compile Include="RightsMaster.class.php" />
+    <Compile Include="StatManager.class.php" />
+    <Compile Include="TemplateBase.class.php" />
+    <Compile Include="TemplateBlock.class.php" />
+    <Compile Include="TemplateMaster.class.php" />
+    <Compile Include="TemplateSimpleTag.class.php" />
+    <Compile Include="User.class.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\config\SIMAdeco.Config.phpproj">
+      <Name>SIMAdeco.Config</Name>
+      <Project>{a5298b78-3ee7-4fed-8dca-7b2ae4eb75a8}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SIMAdeco.Engine.phpproj">
+      <Name>SIMAdeco.Engine</Name>
+      <Project>{dd283d89-17f0-40df-b3d3-d6d3c1d8a995}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\interfaces\SIMAdeco.Interfaces.phpproj">
+      <Name>SIMAdeco.Interfaces</Name>
+      <Project>{e1e40cb2-4bf6-4cb5-8790-62cb97db7664}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\SIMADeco.Modules.phpproj">
+      <Name>SIMADeco.Modules</Name>
+      <Project>{da15148f-d2b9-4187-8bd4-d40ea0e4ab8c}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SIMAdeco.Globals.phpproj">
+      <Name>SIMAdeco.Globals</Name>
+      <Project>{6ac7bae3-a7fe-4827-b9fc-2d9802441d65}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

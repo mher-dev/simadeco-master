@@ -1,0 +1,65 @@
+------
+   Archivo: D:\xampp\htdocs\mher.es\engine\data\config.php.
+   Fecha: 2013-07-15 02:08:57
+   IP: ::1
+   Browser: chrome 26.0.1410.43
+------
+   Archivo: D:\xampp\htdocs\mher.es\engine\data\config.php.
+   Fecha: 2013-07-15 02:21:48
+   IP: ::1
+   Browser: chrome 26.0.1410.43
+------
+   Archivo: M:\Dropbox\Proyectos\SIMADeco\lilyclass\engine\data\config.php.
+   Fecha: 2014-01-01 15:48:37
+   IP: ::1
+   Browser: chrome 31.0.1650.63
+------
+   Archivo: M:\Dropbox\Proyectos\SIMADeco\lilyclass\engine\data\config.php.
+   Fecha: 2014-01-01 15:49:05
+   IP: ::1
+   Browser: chrome 31.0.1650.63
+------
+   Archivo: M:\Dropbox\Proyectos\SIMADeco\lilyclass\engine\data\config.php.
+   Fecha: 2014-01-01 15:49:50
+   IP: ::1
+   Browser: chrome 31.0.1650.63
+------
+   Archivo: M:\Dropbox\Proyectos\SIMADeco\lilyclass\engine\engine.php.
+   Fecha: 2014-01-01 15:50:29
+   IP: ::1
+   Browser: chrome 31.0.1650.63
+------
+   Archivo: M:\Dropbox\Proyectos\SIMADeco\trunk\engine\inc\modules\Main\MainModule.class.php.
+   Fecha: 2015-05-15 12:34:55
+   IP: ::1
+   Browser: firefox 37.0
+------
+   Archivo: M:\Dropbox\Proyectos\SIMADeco\trunk\engine\init.php.
+   Fecha: 2015-06-27 20:33:01
+   IP: ::1
+   Browser: firefox 38.0
+------
+   Archivo: M:\Dropbox\Proyectos\SIMADeco\trunk\engine\config\config.php.
+   Fecha: 2015-06-27 20:55:28
+   IP: ::1
+   Browser: firefox 38.0
+------
+   Archivo: M:\Dropbox\Proyectos\SIMADeco\trunk\engine\inc\modules\Error\ErrorModule.class.php.
+   Fecha: 2015-06-27 21:20:09
+   IP: ::1
+   Browser: firefox 38.0
+------
+   Archivo: M:\Dropbox\Proyectos\LECStudies\SIMAdeco\engine\init.php.
+   Fecha: 2015-09-17 18:37:33
+   IP: ::1
+   Browser: firefox 40.0
+------
+   Archivo: M:\Dropbox\Proyectos\LECStudies\SIMAdeco\engine\init.php.
+   Fecha: 2015-09-17 18:38:46
+   IP: ::1
+   Browser: firefox 40.0
+------
+   Archivo: M:\Dropbox\Proyectos\LECStudies\SIMAdeco\engine\config.js.php.
+   Fecha: 2015-10-24 12:52:50
+   IP: ::1
+   Browser: firefox 41.0

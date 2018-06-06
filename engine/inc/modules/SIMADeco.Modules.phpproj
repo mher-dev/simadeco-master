@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>SIMADeco.Modules</Name>
+    <ProjectGuid>da15148f-d2b9-4187-8bd4-d40ea0e4ab8c</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SIMAdeco.Modules</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>SIMAdeco.Modules</AssemblyName>
+    <ProjectHome />
+    <SccProjectName>Svn</SccProjectName>
+    <SccProvider>SubversionScc</SccProvider>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SIMAdeco.Engine.phpproj">
+      <Name>SIMAdeco.Engine</Name>
+      <Project>{dd283d89-17f0-40df-b3d3-d6d3c1d8a995}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\classes\SIMAdeco.Classes.phpproj">
+      <Name>SIMAdeco.Classes</Name>
+      <Project>{189bdf5b-82ac-488a-9379-b8ca33ea532b}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SIMAdeco.Globals.phpproj">
+      <Name>SIMAdeco.Globals</Name>
+      <Project>{6ac7bae3-a7fe-4827-b9fc-2d9802441d65}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

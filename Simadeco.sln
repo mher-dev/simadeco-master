@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Index", "SIMAdeco.Index.phpproj", "{5DBC368D-E947-45B3-9CDC-93548C1FDBF5}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMADeco.Modules", "engine\inc\modules\SIMADeco.Modules.phpproj", "{DA15148F-D2B9-4187-8BD4-D40EA0E4AB8C}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Classes", "engine\inc\classes\SIMAdeco.Classes.phpproj", "{189BDF5B-82AC-488A-9379-B8CA33EA532B}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Engine", "engine\SIMAdeco.Engine.phpproj", "{DD283D89-17F0-40DF-B3D3-D6D3C1D8A995}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Config", "engine\config\SIMAdeco.Config.phpproj", "{A5298B78-3EE7-4FED-8DCA-7B2AE4EB75A8}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Globals", "engine\inc\SIMAdeco.Globals.phpproj", "{6AC7BAE3-A7FE-4827-B9FC-2D9802441D65}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Languages", "engine\language\SIMAdeco.Languages.phpproj", "{A87502BC-0949-4257-A1AC-E7430AB3A67C}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Skins", "engine\inc\skins\SIMAdeco.Skins.phpproj", "{4D0EBFDE-B255-41CA-A76C-9CDCB2266A60}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Interfaces", "engine\inc\interfaces\SIMAdeco.Interfaces.phpproj", "{E1E40CB2-4BF6-4CB5-8790-62CB97DB7664}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.Templates", "templates\SIMAdeco.Templates.phpproj", "{242C8B6A-4914-4836-8D0E-7AEF2154C2B0}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.SysConfig", "engine\inc\arrays\SIMAdeco.SysConfig.phpproj", "{1EA88151-2B39-4A89-822A-A2649364626D}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "SIMAdeco.AdminModules", "engine\inc\admin\modules\SIMAdeco.AdminModules.phpproj", "{B0913ECE-1006-4CCB-B226-20348D060894}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DBC368D-E947-45B3-9CDC-93548C1FDBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBC368D-E947-45B3-9CDC-93548C1FDBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBC368D-E947-45B3-9CDC-93548C1FDBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBC368D-E947-45B3-9CDC-93548C1FDBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA15148F-D2B9-4187-8BD4-D40EA0E4AB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA15148F-D2B9-4187-8BD4-D40EA0E4AB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA15148F-D2B9-4187-8BD4-D40EA0E4AB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA15148F-D2B9-4187-8BD4-D40EA0E4AB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189BDF5B-82AC-488A-9379-B8CA33EA532B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189BDF5B-82AC-488A-9379-B8CA33EA532B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189BDF5B-82AC-488A-9379-B8CA33EA532B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189BDF5B-82AC-488A-9379-B8CA33EA532B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD283D89-17F0-40DF-B3D3-D6D3C1D8A995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD283D89-17F0-40DF-B3D3-D6D3C1D8A995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD283D89-17F0-40DF-B3D3-D6D3C1D8A995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD283D89-17F0-40DF-B3D3-D6D3C1D8A995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5298B78-3EE7-4FED-8DCA-7B2AE4EB75A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5298B78-3EE7-4FED-8DCA-7B2AE4EB75A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5298B78-3EE7-4FED-8DCA-7B2AE4EB75A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5298B78-3EE7-4FED-8DCA-7B2AE4EB75A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC7BAE3-A7FE-4827-B9FC-2D9802441D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC7BAE3-A7FE-4827-B9FC-2D9802441D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC7BAE3-A7FE-4827-B9FC-2D9802441D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC7BAE3-A7FE-4827-B9FC-2D9802441D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87502BC-0949-4257-A1AC-E7430AB3A67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87502BC-0949-4257-A1AC-E7430AB3A67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87502BC-0949-4257-A1AC-E7430AB3A67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87502BC-0949-4257-A1AC-E7430AB3A67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0EBFDE-B255-41CA-A76C-9CDCB2266A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0EBFDE-B255-41CA-A76C-9CDCB2266A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0EBFDE-B255-41CA-A76C-9CDCB2266A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0EBFDE-B255-41CA-A76C-9CDCB2266A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E40CB2-4BF6-4CB5-8790-62CB97DB7664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E40CB2-4BF6-4CB5-8790-62CB97DB7664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E40CB2-4BF6-4CB5-8790-62CB97DB7664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E40CB2-4BF6-4CB5-8790-62CB97DB7664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242C8B6A-4914-4836-8D0E-7AEF2154C2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242C8B6A-4914-4836-8D0E-7AEF2154C2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242C8B6A-4914-4836-8D0E-7AEF2154C2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242C8B6A-4914-4836-8D0E-7AEF2154C2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA88151-2B39-4A89-822A-A2649364626D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA88151-2B39-4A89-822A-A2649364626D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA88151-2B39-4A89-822A-A2649364626D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA88151-2B39-4A89-822A-A2649364626D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0913ECE-1006-4CCB-B226-20348D060894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0913ECE-1006-4CCB-B226-20348D060894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0913ECE-1006-4CCB-B226-20348D060894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0913ECE-1006-4CCB-B226-20348D060894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+DirectoryIndex index.html index.php
+
+RewriteEngine On
+RewriteRule ^404.html$ index.php?do=staticPage&code=E_PAGE_NOT_FOUND
+ErrorDocument 404 /index.php?do=error&code=E_PAGE_NOT_FOUND
+
+
+RewriteRule ^feedbacks(/?)+$ index.php?do=feedback [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^download/([^/]+)+$ uploads/downloads/$1 [L]
+RewriteRule ^about(/?)+$ index.php?do=page&name=who-we-are [L]
+RewriteRule ^about/([^/]+)+$ index.php?do=page&name=$1 [L]
+
+Options -Indexes 
+
+#php_value auto_prepend_file none
+#php_value auto_append_file none
+#RewriteRule ^([^/]+).html$ index.php?do=staticPage&page=$1 [L]
+#RewriteRule ^feedbacks/select/([0-9]+)(/?)+$ index.php?do=feedback&showTop=$1 [L]
+#RewriteRule ^feedbacks/page/([0-9]+)(/?)+$ index.php?do=feedback&page=$1 [L]
+
+#RewriteRule ^article/([^/]+).html$ index.php?do=showFull&articleName=$1 [L]
+
+#RewriteRule ^contact(/?)+$ index.php?do=contact [L]
+#RewriteRule ^services(/?)+$ index.php?do=staticPage&page=services [L]
+
+#RewriteRule ^advices(/?)+$ index.php?do=staticPage&page=advices [L]
+#RewriteRule ^faq(/?)+$ index.php?do=staticPage&page=faq [L]
